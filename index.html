@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElectroHogar - Tu tienda de electrodomésticos premium</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .seccion {
+      padding: 4rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .producto {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin: 1rem;
+      width: 22%;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .producto h3 {
+      margin: 1rem 0;
+      font-size: 1.25rem;
+      color: #333;
+    }
+    .producto p {
+      color: #777;
+    }
+    .btn-comprar {
+      background-color: #ffd700;
+      color: #000;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 1rem;
+      transition: background-color 0.3s;
+    }
+    .btn-comprar:hover {
+      background-color: #e6c200;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ElectroHogar</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#cocina">Cocina</a>
+      <a href="#refrigeracion">Refrigeración</a>
+      <a href="#lavado">Lavado</a>
+      <a href="#pequenos">Pequeños</a>
+      <a href="#carrito">🛒 Carrito</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="seccion">
+    <h2>Bienvenido a ElectroHogar</h2>
+    <p>Encuentra electrodomésticos de calidad premium para tu hogar. Ofrecemos productos exclusivos que garantizan comodidad y eficiencia.</p>
+  </section>
+
+  <section id="cocina" class="seccion">
+    <h2>Electrodomésticos de Cocina</h2>
+    <div class="producto">
+      <img src="https://images.pexels.com/photos/7525215/pexels-photo-7525215.jpeg" alt="Horno Eléctrico Premium">
+      <h3>Horno Eléctrico Premium</h3>
+      <p>Alta eficiencia, diseño elegante para tu cocina moderna.</p>
+      <button class="btn-comprar">Comprar</button>
+    </div>
+  </section>
+
+  <section id="refrigeracion" class="seccion">
+    <h2>Refrigeración</h2>
+    <div class="producto">
+      <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg" alt="Refrigerador de Doble Puerta">
+      <h3>Refrigerador de Doble Puerta</h3>
+      <p>Gran capacidad, tecnología avanzada para mantener tus alimentos frescos.</p>
+      <button class="btn-comprar">Comprar</button>
+    </div>
+  </section>
+
+  <section id="lavado" class="seccion">
+    <h2>Lavado</h2>
+    <div class="producto">
+      <img src="https://images.pexels.com/photos/434840/pexels-photo-434840.jpeg" alt="Lavadora Inteligente">
+      <h3>Lavadora Inteligente</h3>
+      <p>Conectividad WiFi y ahorro de energía para un lavado eficiente.</p>
+      <button class="btn-comprar">Comprar</button>
+    </div>
+  </section>
+
+  <section id="pequenos" class="seccion">
+    <h2>Pequeños Electrodomésticos</h2>
+    <div class="producto">
+      <img src="https://images.pexels.com/photos/753215/pexels-photo-753215.jpeg" alt="Cafetera de Lujo">
+      <h3>Cafetera de Lujo</h3>
+      <p>El café perfecto con un solo botón, fácil y rápido.</p>
+      <button class="btn-comprar">Comprar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ElectroHogar. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
